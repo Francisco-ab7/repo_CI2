@@ -4,9 +4,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js", 
-    "build": "echo 'No hay proceso de compilación en este proyecto'", 
-    "test": "jest --forceExit", 
-    "lint": "eslint ."
+    "build": "echo 'No hay proceso de compilación en este proyecto'" ,
+    "test": "jest --coverage --forceExit", 
+    "lint": "eslint ." 
   },
   "keywords": [],
   "author": "",
