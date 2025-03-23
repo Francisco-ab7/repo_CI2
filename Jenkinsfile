@@ -18,7 +18,7 @@ pipeline {
                     try { 
                         echo "⚙️ Instalando dependencias..." 
                         sh 'npm install' 
-           sh 'npm run build' 
+                        sh 'npm run build' 
                     } catch (Exception e) { 
                         error("❌ Error en la etapa de Build") 
                     } 
